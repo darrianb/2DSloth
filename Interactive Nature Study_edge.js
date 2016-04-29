@@ -166,7 +166,7 @@
                             id: 'Repetition',
                             display: 'block',
                             type: 'text',
-                            rect: ['161px', '23px', 'auto', 'auto', 'auto', 'auto'],
+                            rect: ['161px', '25px', 'auto', 'auto', 'auto', 'auto'],
                             overflow: 'visible',
                             cursor: 'pointer',
                             opacity: '0.7',
@@ -206,11 +206,12 @@
                             id: 'Balance_Text',
                             display: 'none',
                             type: 'text',
-                            rect: ['31px', '134px', '715px', '548px', 'auto', 'auto'],
+                            rect: ['31px', '144px', '715px', '548px', 'auto', 'auto'],
                             text: "<p style=\"margin: 0px;\">​<span style=\"font-weight: 300; text-transform: none;\">The Balance of Sloths occurs in their symmetry, the marks on their faces are symmetrical and so are the shapes of their bodies. They also have an incredible sense of functional balance and can hang from trees with a strong grip that holds even after they've died.</span></p>",
                             align: "center",
                             font: ['lato, sans-serif', [48, "px"], "rgba(160,134,101,1)", "400", "none", "normal", "break-word", ""],
-                            textStyle: ["", "", "", "", "uppercase"]
+                            textStyle: ["", "", "", "", "uppercase"],
+                            transform: [[],[],[],['0.5','0.5']]
                         },
                         {
                             id: 'Balance',
@@ -228,7 +229,7 @@
                             id: 'Back_FR',
                             display: 'block',
                             type: 'image',
-                            rect: ['588px', '626px', '246px', '58px', 'auto', 'auto'],
+                            rect: ['588px', '702px', '246px', '58px', 'auto', 'auto'],
                             cursor: 'pointer',
                             opacity: '0.7',
                             fill: ["rgba(0,0,0,0)",im+"Back.svg",'0px','0px']
@@ -237,7 +238,7 @@
                             id: 'Back_VE',
                             display: 'block',
                             type: 'image',
-                            rect: ['389px', '743px', '246px', '58px', 'auto', 'auto'],
+                            rect: ['389px', '607px', '246px', '58px', 'auto', 'auto'],
                             cursor: 'pointer',
                             opacity: '0.3',
                             fill: ["rgba(0,0,0,0)",im+"Back.svg",'0px','0px']
@@ -314,14 +315,14 @@
                     },
                     data: [
                         [
-                            "eid3339",
+                            "eid3588",
                             "top",
-                            21500,
+                            20000,
                             0,
-                            "easeOutExpo",
+                            "easeOutBack",
                             "${Balance_Text}",
-                            '134px',
-                            '134px'
+                            '144px',
+                            '149px'
                         ],
                         [
                             "eid665",
@@ -964,6 +965,16 @@
                             '1'
                         ],
                         [
+                            "eid3586",
+                            "scaleY",
+                            21000,
+                            500,
+                            "swing",
+                            "${Balance_Text}",
+                            '0.5',
+                            '1'
+                        ],
+                        [
                             "eid694",
                             "font-size",
                             8000,
@@ -1002,6 +1013,16 @@
                             "${Color}",
                             '54px',
                             '124px'
+                        ],
+                        [
+                            "eid3585",
+                            "scaleX",
+                            21000,
+                            500,
+                            "swing",
+                            "${Balance_Text}",
+                            '0.5',
+                            '1'
                         ],
                         [
                             "eid881",
@@ -1086,12 +1107,12 @@
                         [
                             "eid3436",
                             "top",
-                            21750,
+                            21250,
                             0,
                             "swing",
                             "${Back_FR}",
-                            '682px',
-                            '682px'
+                            '702px',
+                            '702px'
                         ],
                         [
                             "eid3446",
@@ -1100,7 +1121,7 @@
                             0,
                             "swing",
                             "${Back_FR}",
-                            '682px',
+                            '702px',
                             '685px'
                         ],
                         [
@@ -1275,7 +1296,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3501",
+                            "eid3649",
                             "-moz-transform-origin",
                             500,
                             750,
@@ -1286,7 +1307,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3502",
+                            "eid3650",
                             "-ms-transform-origin",
                             500,
                             750,
@@ -1297,7 +1318,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3503",
+                            "eid3651",
                             "msTransformOrigin",
                             500,
                             750,
@@ -1308,7 +1329,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3504",
+                            "eid3652",
                             "-o-transform-origin",
                             500,
                             750,
@@ -1319,7 +1340,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3505",
+                            "eid3653",
                             "transform-origin",
                             500,
                             750,
@@ -1341,7 +1362,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3506",
+                            "eid3654",
                             "-moz-transform-origin",
                             1250,
                             250,
@@ -1352,7 +1373,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3507",
+                            "eid3655",
                             "-ms-transform-origin",
                             1250,
                             250,
@@ -1363,7 +1384,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3508",
+                            "eid3656",
                             "msTransformOrigin",
                             1250,
                             250,
@@ -1374,7 +1395,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3509",
+                            "eid3657",
                             "-o-transform-origin",
                             1250,
                             250,
@@ -1385,7 +1406,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3510",
+                            "eid3658",
                             "transform-origin",
                             1250,
                             250,
@@ -2133,7 +2154,7 @@
                             "easeOutBack",
                             "${Repetition}",
                             '304px',
-                            '45px'
+                            '25px'
                         ],
                         [
                             "eid700",
@@ -2220,7 +2241,7 @@
                             "left",
                             21000,
                             500,
-                            "easeOutExpo",
+                            "easeOutBack",
                             "${Balance_Text}",
                             '-954px',
                             '31px'
@@ -2537,7 +2558,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3511",
+                            "eid3659",
                             "-moz-transform-origin",
                             750,
                             0,
@@ -2548,7 +2569,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3512",
+                            "eid3660",
                             "-ms-transform-origin",
                             750,
                             0,
@@ -2559,7 +2580,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3513",
+                            "eid3661",
                             "msTransformOrigin",
                             750,
                             0,
@@ -2570,7 +2591,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3514",
+                            "eid3662",
                             "-o-transform-origin",
                             750,
                             0,
@@ -2581,7 +2602,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3515",
+                            "eid3663",
                             "transform-origin",
                             750,
                             0,
@@ -2603,7 +2624,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3516",
+                            "eid3664",
                             "-moz-transform-origin",
                             1500,
                             0,
@@ -2614,7 +2635,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3517",
+                            "eid3665",
                             "-ms-transform-origin",
                             1500,
                             0,
@@ -2625,7 +2646,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3518",
+                            "eid3666",
                             "msTransformOrigin",
                             1500,
                             0,
@@ -2636,7 +2657,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3519",
+                            "eid3667",
                             "-o-transform-origin",
                             1500,
                             0,
@@ -2647,7 +2668,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3520",
+                            "eid3668",
                             "transform-origin",
                             1500,
                             0,
@@ -2774,8 +2795,8 @@
                             0,
                             "linear",
                             "${Back_VE}",
-                            '617px',
-                            '617px'
+                            '607px',
+                            '607px'
                         ],
                         [
                             "eid780",
@@ -2784,8 +2805,8 @@
                             0,
                             "swing",
                             "${Back_VE}",
-                            '743px',
-                            '723px'
+                            '607px',
+                            '713px'
                         ],
                         [
                             "eid593",
