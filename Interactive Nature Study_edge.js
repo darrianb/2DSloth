@@ -166,7 +166,7 @@
                             id: 'Repetition',
                             display: 'block',
                             type: 'text',
-                            rect: ['161px', '25px', 'auto', 'auto', 'auto', 'auto'],
+                            rect: ['161px', '35px', 'auto', 'auto', 'auto', 'auto'],
                             overflow: 'visible',
                             cursor: 'pointer',
                             opacity: '0.7',
@@ -192,7 +192,7 @@
                             type: 'image',
                             rect: ['0px', '220px', '475px', '475px', 'auto', 'auto'],
                             fill: ["rgba(0,0,0,0)",im+"Claws.png",'0px','0px'],
-                            filter: [0, 0, 1, 1, 0, 0.85632491438356, 0.5, 0, "rgba(0,0,0,0)", 0, 0, 0],
+                            filter: [0, 0, 1, 1, 0, 0.85, 0.5, 0, "rgba(0,0,0,0)", 0, 0, 0],
                             transform: [[],[],[],['0.5','0.5']]
                         },
                         {
@@ -965,6 +965,76 @@
                             '1'
                         ],
                         [
+                            "eid1146",
+                            "opacity",
+                            23000,
+                            500,
+                            "easeOutBack",
+                            "${Repetition_Text}",
+                            '0.5',
+                            '1'
+                        ],
+                        [
+                            "eid573",
+                            "display",
+                            500,
+                            0,
+                            "swing",
+                            "${Back_VE}",
+                            'block',
+                            'block'
+                        ],
+                        [
+                            "eid596",
+                            "display",
+                            750,
+                            0,
+                            "easeOutBack",
+                            "${Back_VE}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid571",
+                            "display",
+                            10500,
+                            0,
+                            "swing",
+                            "${Back_VE}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid569",
+                            "display",
+                            13000,
+                            0,
+                            "swing",
+                            "${Back_VE}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid575",
+                            "display",
+                            15493,
+                            0,
+                            "swing",
+                            "${Back_VE}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid565",
+                            "display",
+                            20000,
+                            0,
+                            "swing",
+                            "${Back_VE}",
+                            'block',
+                            'none'
+                        ],
+                        [
                             "eid3586",
                             "scaleY",
                             21000,
@@ -1275,14 +1345,14 @@
                             '31px'
                         ],
                         [
-                            "eid1146",
-                            "opacity",
-                            23000,
-                            500,
+                            "eid3690",
+                            "filter.grayscale",
+                            23250,
+                            0,
                             "easeOutBack",
-                            "${Repetition_Text}",
+                            "${Claws}",
                             '0.5',
-                            '1'
+                            '0.5'
                         ],
                         [
                             "eid909",
@@ -1296,7 +1366,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3649",
+                            "eid3692",
                             "-moz-transform-origin",
                             500,
                             750,
@@ -1307,7 +1377,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3650",
+                            "eid3693",
                             "-ms-transform-origin",
                             500,
                             750,
@@ -1318,7 +1388,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3651",
+                            "eid3694",
                             "msTransformOrigin",
                             500,
                             750,
@@ -1329,7 +1399,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3652",
+                            "eid3695",
                             "-o-transform-origin",
                             500,
                             750,
@@ -1340,7 +1410,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3653",
+                            "eid3696",
                             "transform-origin",
                             500,
                             750,
@@ -1362,7 +1432,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3654",
+                            "eid3697",
                             "-moz-transform-origin",
                             1250,
                             250,
@@ -1373,7 +1443,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3655",
+                            "eid3698",
                             "-ms-transform-origin",
                             1250,
                             250,
@@ -1384,7 +1454,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3656",
+                            "eid3699",
                             "msTransformOrigin",
                             1250,
                             250,
@@ -1395,7 +1465,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3657",
+                            "eid3700",
                             "-o-transform-origin",
                             1250,
                             250,
@@ -1406,7 +1476,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3658",
+                            "eid3701",
                             "transform-origin",
                             1250,
                             250,
@@ -2154,7 +2224,7 @@
                             "easeOutBack",
                             "${Repetition}",
                             '304px',
-                            '25px'
+                            '35px'
                         ],
                         [
                             "eid700",
@@ -2558,7 +2628,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3659",
+                            "eid3702",
                             "-moz-transform-origin",
                             750,
                             0,
@@ -2569,7 +2639,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3660",
+                            "eid3703",
                             "-ms-transform-origin",
                             750,
                             0,
@@ -2580,7 +2650,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3661",
+                            "eid3704",
                             "msTransformOrigin",
                             750,
                             0,
@@ -2591,7 +2661,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3662",
+                            "eid3705",
                             "-o-transform-origin",
                             750,
                             0,
@@ -2602,7 +2672,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3663",
+                            "eid3706",
                             "transform-origin",
                             750,
                             0,
@@ -2624,7 +2694,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3664",
+                            "eid3707",
                             "-moz-transform-origin",
                             1500,
                             0,
@@ -2635,7 +2705,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3665",
+                            "eid3708",
                             "-ms-transform-origin",
                             1500,
                             0,
@@ -2646,7 +2716,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3666",
+                            "eid3709",
                             "msTransformOrigin",
                             1500,
                             0,
@@ -2657,7 +2727,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3667",
+                            "eid3710",
                             "-o-transform-origin",
                             1500,
                             0,
@@ -2668,7 +2738,7 @@
                             {valueTemplate: '@@0@@% @@1@@%'}
                         ],
                         [
-                            "eid3668",
+                            "eid3711",
                             "transform-origin",
                             1500,
                             0,
@@ -2839,13 +2909,23 @@
                             'block'
                         ],
                         [
+                            "eid3691",
+                            "display",
+                            10500,
+                            0,
+                            "easeOutBack",
+                            "${Color}",
+                            'block',
+                            'none'
+                        ],
+                        [
                             "eid469",
                             "display",
                             15743,
                             0,
                             "easeOutBack",
                             "${Color}",
-                            'block',
+                            'none',
                             'none'
                         ],
                         [
@@ -3419,64 +3499,14 @@
                             '157px'
                         ],
                         [
-                            "eid573",
-                            "display",
-                            500,
-                            0,
-                            "swing",
-                            "${Back_VE}",
-                            'block',
-                            'block'
-                        ],
-                        [
-                            "eid596",
-                            "display",
-                            750,
+                            "eid3689",
+                            "filter.sepia",
+                            23250,
                             0,
                             "easeOutBack",
-                            "${Back_VE}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid571",
-                            "display",
-                            10500,
-                            0,
-                            "swing",
-                            "${Back_VE}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid569",
-                            "display",
-                            13000,
-                            0,
-                            "swing",
-                            "${Back_VE}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid575",
-                            "display",
-                            15493,
-                            0,
-                            "swing",
-                            "${Back_VE}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid565",
-                            "display",
-                            20000,
-                            0,
-                            "swing",
-                            "${Back_VE}",
-                            'block',
-                            'none'
+                            "${Claws}",
+                            '0.85',
+                            '0.85'
                         ],
                         [
                             "eid208",
